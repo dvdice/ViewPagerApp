@@ -8,7 +8,6 @@ import com.example.viewpager.adapter.MyAdapter
 
 class MainActivity : AppCompatActivity() {
     lateinit var myAdapter: MyAdapter
-    private var array = ArrayList<String>()
     lateinit var viewPager: ViewPager2
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
